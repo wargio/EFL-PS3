@@ -105,7 +105,7 @@ function autogen_lib {
         NOCONFIGURE=1 ./autogen.sh >& ../autogen_${what}.log  || \
         (echo "Error!" && \
           cd $pwd && \
-          (tail autogen_${what}.log || true) && \
+          (tail e17_src/autogen_${what}.log || true) && \
           echo -ne "\n\nSee autogen_${what}.log for details.\n" && \
           exit 1)
     echo "Done"
