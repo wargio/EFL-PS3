@@ -1,0 +1,9 @@
+This is a simple repo that allows you to compile efl quickly.
+
+if you have trouble, tell me!
+
+use build_essential.sh to have the dipendencies to build efl. 
+
+sudo apt-get install autopoint libglib2.0-dev libltdl-dev libcurl4-openssl-dev liblua5.1-0-dev libfontconfig1-dev libx11-dev libdbus-1-dev libbz2-dev libid3tag0-dev libpng12-dev libtiff4-dev libungif4-dev libjpeg62-dev libfreetype6-dev libpam0g-dev libxcursor-dev libxml2-dev libssl-dev autoconf pkg-config libpng3-dev libxkbfile-dev libsqlite3-dev libimlib2-dev libtagc0-dev libtag1-dev libxmu-dev libxdamage-dev libxcomposite-dev libasound2-dev cmake
+
+thanks to kakaroto for this awesome port!
