@@ -1,0 +1,13 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: eet
+Description: Library for speedy data storage, retrieval, and compression
+Requires.private: eina >= 1.1.0 
+Version: 1.5.99.esportato
+Libs: -L${libdir} -leet
+Libs.private:  -liberty  -ljpeg -lz -lm
+Cflags: -I${includedir}/eet-1
+Cflags.private: 

@@ -1,0 +1,12 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: ecore-wayland
+Description: E core library, Wayland module
+Requires.private: 
+Version: 1.1.99.esportato
+Libs: -L${libdir} -lecore_wayland
+Libs.private: -lwayland-client
+Cflags: -I${includedir}/ecore-1

@@ -1,0 +1,6 @@
+OLD_PARM=""
+OLD_CFLAGS=""
+OLD_PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/media/ps3dev/ps3dev/bin:/media/ps3dev/ps3dev/ppu/bin:/media/ps3dev/ps3dev/spu/bin"
+OLD_PKG_CONFIG_PATH=""
+OLD_LDFLAGS=""
+OLD_CXXFLAGS=""

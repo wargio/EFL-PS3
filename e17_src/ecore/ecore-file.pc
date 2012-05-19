@@ -1,0 +1,11 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: ecore-file
+Description: E core library, File module
+Requires.private: ecore-con >= 1.1.99 ecore >= 1.1.99 eina >= 1.1.0 escape 
+Version: 1.1.99.esportato
+Libs: -L${libdir} -lecore_file
+Cflags: -I${includedir}/ecore-1

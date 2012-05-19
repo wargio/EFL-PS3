@@ -1,0 +1,11 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: ecore-con
+Description: E core library, Con module
+Requires.private: libcares libcurl ecore >= 1.1.0 eina >= 1.1.0 
+Version: 1.1.99.esportato
+Libs: -L${libdir} -lecore_con
+Cflags: -I${includedir}/ecore-1

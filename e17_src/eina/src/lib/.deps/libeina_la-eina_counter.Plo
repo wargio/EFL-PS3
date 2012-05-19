@@ -1,0 +1,145 @@
+libeina_la-eina_counter.lo: eina_counter.c ../../config.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdio.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/newlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/config.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/ieeefp.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/features.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stddef.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdarg.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/reent.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_default_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/lock.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdint.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdint.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/stdio.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/stdlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/alloca.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/string.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/string.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/time.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/time.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/time.h \
+ ../../src/include/eina_config.h eina_private.h \
+ ../../src/include/eina_magic.h ../../src/include/eina_config.h \
+ ../../src/include/eina_types.h ../../src/include/eina_error.h \
+ ../../src/include/eina_iterator.h ../../src/include/eina_magic.h \
+ ../../src/include/eina_accessor.h ../../src/include/eina_inlist.h \
+ ../../src/include/eina_iterator.h ../../src/include/eina_accessor.h \
+ ../../src/include/eina_error.h ../../src/include/eina_safety_checks.h \
+ ../../src/include/eina_log.h ../../src/include/eina_inline_log.x \
+ ../../src/include/eina_counter.h \
+ /media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/Escape.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/unistd.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/unistd.h \
+ /media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/escape_libgen.h \
+ /media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/escape_unistd.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/syslimits.h
+
+../../config.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdio.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/newlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/config.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/ieeefp.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/features.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stddef.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdarg.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/reent.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_default_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/lock.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdint.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdint.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/stdio.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/stdlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/alloca.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/string.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/string.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/time.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/time.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/time.h:
+
+../../src/include/eina_config.h:
+
+eina_private.h:
+
+../../src/include/eina_magic.h:
+
+../../src/include/eina_config.h:
+
+../../src/include/eina_types.h:
+
+../../src/include/eina_error.h:
+
+../../src/include/eina_iterator.h:
+
+../../src/include/eina_magic.h:
+
+../../src/include/eina_accessor.h:
+
+../../src/include/eina_inlist.h:
+
+../../src/include/eina_iterator.h:
+
+../../src/include/eina_accessor.h:
+
+../../src/include/eina_error.h:
+
+../../src/include/eina_safety_checks.h:
+
+../../src/include/eina_log.h:
+
+../../src/include/eina_inline_log.x:
+
+../../src/include/eina_counter.h:
+
+/media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/Escape.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/unistd.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/unistd.h:
+
+/media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/escape_libgen.h:
+
+/media/ps3dev/ps3dev/portlibs/ppu/include/escape-0/escape_unistd.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/syslimits.h:

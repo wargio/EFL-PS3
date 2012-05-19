@@ -1,0 +1,104 @@
+embryo_cc-embryo_cc_sc1.o: embryo_cc_sc1.c ../../config.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/assert.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/newlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/config.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/ieeefp.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/features.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/ctype.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include-fixed/limits.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdarg.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdio.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stddef.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/reent.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_default_types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/lock.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdint.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdint.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/types.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/stdio.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/stdlib.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/alloca.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/string.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/string.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/unistd.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/unistd.h \
+ embryo_cc_sc.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/setjmp.h \
+ /media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/setjmp.h \
+ embryo_cc_amx.h embryo_cc_prefix.h
+
+../../config.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/assert.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/newlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/config.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/ieeefp.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/features.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/ctype.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include-fixed/limits.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdarg.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdio.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stddef.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/reent.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/_ansi.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/_default_types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/lock.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/include/stdint.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdint.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/types.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/stdio.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/stdlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/stdlib.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/alloca.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/string.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/string.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/unistd.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/sys/unistd.h:
+
+embryo_cc_sc.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/setjmp.h:
+
+/media/ps3dev/ps3dev/ppu/bin/../lib/gcc/powerpc64-ps3-elf/4.5.2/../../../../powerpc64-ps3-elf/include/machine/setjmp.h:
+
+embryo_cc_amx.h:
+
+embryo_cc_prefix.h:

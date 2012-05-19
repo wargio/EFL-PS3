@@ -1,0 +1,12 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: Eina
+Description: A Library that implements fast data types and miscellaneous tools
+Requires.private: escape
+Version: 1.1.99.esportato
+Libs: -L${libdir} -leina 
+Libs.private:     -L/media/ps3dev/ps3dev/portlibs/ppu/lib -lescape -lm -lnet -lsysmodule -liberty   
+Cflags: -I${includedir}/eina-1 -I${includedir}/eina-1/eina

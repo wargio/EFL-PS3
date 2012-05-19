@@ -1,0 +1,4 @@
+Name: evas-opengl-cocoa
+Description: Evas OpenGL Cocoa engine
+Version: 1.1.99.esportato
+
