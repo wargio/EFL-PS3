@@ -3,7 +3,7 @@ set -e
 
 function efl {
     if test ! -d EFL-PS3 ; then
-	git clone git@github.com:wargio/EFL-PS3.git EFL-PS3
+	git clone git://github.com/wargio/EFL-PS3.git EFL-PS3
        # git clone git://github.com/kakaroto/e17.git e17_src
     fi
     cd EFL-PS3
