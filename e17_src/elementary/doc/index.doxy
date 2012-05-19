@@ -1,0 +1,317 @@
+/**
+ * @page infralist Infrastructure list
+ *
+ * Elementary is mostly composed of widgets, but it also contains some
+ * infrastructure modules that facilitate the use of widgets. These are the
+ * infrastructure modules:
+ * @li @ref Caches
+ * @li @ref Cursors
+ * @li @ref Debug
+ * @li @ref Config
+ * @li @ref Engine
+ * @li @ref Fonts
+ * @li @ref Profile
+ * @li @ref Fingers
+ * @li @ref Focus
+ * @li @ref General
+ * @li @ref Elm_Gesture_Layer
+ * @li @ref Password_last_show
+ * @li @ref Start
+ * @li @ref Scrolling
+ * @li @ref Scrollhints
+ * @li @ref UI-Mirroring
+ * @li @ref Scaling
+ * @li @ref Styles
+ * @li @ref Theme
+ * @li @ref Transit
+ * @li @ref WidgetNavigation
+ *
+ * The other two main groups in Elementary are:
+ * @li @ref widgetslist - These are the widgets you'll compose your UI out of.
+ * @li @ref containerslist - These are the containers which hold the widgets.
+ * 
+ * Also see other generic EFL programming guides:
+ * @li @ref threading
+ */
+/**
+ * @page widgetslist Widget list
+ *
+ * Here is a list of the widgets and some images to give you an idea of what
+ * they are:
+ * @li @ref Actionslider
+ *
+ * @image html img/widget/actionslider/preview-00.png
+ * @image latex img/widget/actionslider/preview-00.eps
+ * @li @ref Anchorview
+ *
+ * @image html img/widget/anchorview/preview-00.png
+ * @image latex img/widget/anchorview/preview-00.eps
+ * @li @ref Anchorblock
+ *
+ * @image html img/widget/anchorblock/preview-00.png
+ * @image latex img/widget/anchorblock/preview-00.eps
+ * @li @ref Bg
+ *
+ * @image html img/widget/bg/preview-00.png
+ * @image latex img/widget/bg/preview-00.eps
+ * @li @ref Bubble
+ *
+ * @image html img/widget/bubble/preview-00.png
+ * @image latex img/widget/bubble/preview-00.eps
+ * @li @ref Button
+ *
+ * @image html img/widget/button/preview-00.png
+ * @image latex img/widget/button/preview-00.eps
+ * @li @ref Calendar
+ *
+ * @image html img/widget/calendar/preview-00.png
+ * @image latex img/widget/calendar/preview-00.eps
+ * @li @ref Check
+ *
+ * @image html img/widget/check/preview-00.png
+ * @image latex img/widget/check/preview-00.eps
+ * @li @ref Clock
+ *
+ * @image html img/widget/clock/preview-00.png
+ * @image latex img/widget/clock/preview-00.eps
+ *
+ * @li @ref Colorselector
+ *
+ * @image html img/widget/colorselector/preview-00.png
+ * @image latex img/widget/colorselector/preview-00.eps
+ * @li @ref Ctxpopup
+ *
+ * @image html img/widget/ctxpopup/preview-00.png
+ * @image latex img/widget/ctxpopup/preview-00.eps
+ * @li @ref Diskselector
+ *
+ * @image html img/widget/diskselector/preview-00.png
+ * @image latex img/widget/diskselector/preview-00.eps
+ * @li @ref Entry
+ *
+ * @image html img/widget/entry/preview-02.png
+ * @image latex img/widget/entry/preview-02.eps
+ * @li @ref File_Selector_Button
+ *
+ * @image html img/widget/fileselector_button/preview-00.png
+ * @image latex img/widget/fileselector_button/preview-00.eps
+ * @li @ref File_Selector_Entry
+ *
+ * @image html img/widget/fileselector_entry/preview-00.png
+ * @image latex img/widget/fileselector_entry/preview-00.eps
+ * @li @ref Fileselector
+ *
+ * @image html img/widget/fileselector/preview-00.png
+ * @image latex img/widget/fileselector/preview-00.eps
+ * @li @ref Flip
+ *
+ * @image html img/widget/flip/preview-00.png
+ * @image latex img/widget/flip/preview-00.eps
+ * @li @ref Flipselector
+ *
+ * @image html img/widget/flipselector/preview-00.png
+ * @image latex img/widget/flipselector/preview-00.eps
+ * @li @ref Frame
+ *
+ * @image html img/widget/frame/preview-00.png
+ * @image latex img/widget/frame/preview-00.eps
+ * @li @ref Gengrid
+ *
+ * @image html img/widget/gengrid/preview-00.png
+ * @image latex img/widget/gengrid/preview-00.eps
+ * 
+ * @li @ref Genlist
+ * @image html img/widget/genlist/preview-00.png
+ * @image latex img/widget/genlist/preview-00.eps
+ * @image html img/genlist.png
+ * @image latex img/genlist.eps
+ *
+ * @li @ref GLView
+ * @li @ref Hover
+ *
+ * @image html img/widget/hover/preview-00.png
+ * @image latex img/widget/hover/preview-00.eps
+ * @li @ref Hoversel
+ *
+ * @image html img/widget/hoversel/preview-00.png
+ * @image latex img/widget/hoversel/preview-00.eps
+ * @li @ref Icon
+ *
+ * @image html img/widget/icon/preview-00.png
+ * @image latex img/widget/icon/preview-00.eps
+ * @li @ref Image
+ *
+ * @image html img/widget/image/preview-00.png
+ * @image latex img/widget/image/preview-00.eps
+ * @li @ref Index
+ *
+ * @image html img/widget/index/preview-00.png
+ * @image latex img/widget/index/preview-00.eps
+ * @li @ref Inwin
+ *
+ * @image html img/widget/inwin/preview-00.png
+ * @image latex img/widget/inwin/preview-00.eps
+ * @li @ref List
+ *
+ * @image html img/widget/list/preview-00.png
+ * @image latex img/widget/list/preview-00.eps
+ * @image html img/list.png
+ * @image latex img/list.eps
+ * @li @ref Label
+ *
+ * @image html img/widget/label/preview-00.png
+ * @image latex img/widget/label/preview-00.eps
+ * @li @ref Map
+ *
+ * @image html img/widget/map/preview-00.png
+ * @image latex img/widget/map/preview-00.eps
+ * @li @ref Mapbuf
+ *
+ * @image html img/widget/mapbuf/preview-00.png
+ * @image latex img/widget/mapbuf/preview-00.eps
+ * @li @ref Menu
+ *
+ * @image html img/widget/menu/preview-00.png
+ * @image latex img/widget/menu/preview-00.eps
+ * @li @ref Notify
+ *
+ * @image html img/widget/notify/preview-00.png
+ * @image latex img/widget/notify/preview-00.eps
+ * @li @ref Pager
+ *
+ * @image html img/widget/pager/preview-00.png
+ * @image latex img/widget/pager/preview-00.eps
+ * @li @ref Panel
+ *
+ * @image html img/widget/panel/preview-00.png
+ * @image latex img/widget/panel/preview-00.eps
+ * @li @ref Photo
+ * @li @ref Photocam
+ *
+ * @image html img/widget/photocam/preview-00.png
+ * @image latex img/widget/photocam/preview-00.eps
+ * @li @ref Progressbar
+ *
+ * @image html img/widget/progressbar/preview-00.png
+ * @image latex img/widget/progressbar/preview-00.eps
+ * @li @ref Radio
+ *
+ * @image html img/widget/radio/preview-00.png
+ * @image latex img/widget/radio/preview-00.eps
+ * @li @ref Route
+ * @li @ref SegmentControl
+ *
+ * @image html img/widget/segment_control/preview-00.png
+ * @image latex img/widget/segment_control/preview-00.eps
+ * @image html img/segment_control.png
+ * @image latex img/segment_control.eps
+ * @li @ref Separator
+ *
+ * @image html img/widget/separator/preview-00.png
+ * @image latex img/widget/separator/preview-00.eps
+ * @li @ref Slider
+ *
+ * @image html img/widget/slider/preview-00.png
+ * @image latex img/widget/slider/preview-00.eps
+ * @li @ref Slideshow
+ *
+ * @image html img/widget/slideshow/preview-00.png
+ * @image latex img/widget/slideshow/preview-00.eps
+ * @li @ref Spinner
+ *
+ * @image html img/widget/spinner/preview-00.png
+ * @image latex img/widget/spinner/preview-00.eps
+ * @li @ref Thumb
+
+ * @image html img/widget/thumb/preview-00.png
+ * @image latex img/widget/thumb/preview-00.eps
+ * @li @ref Toggle
+ *
+ * @image html img/widget/toggle/preview-00.png
+ * @image latex img/widget/toggle/preview-00.eps
+ * @li @ref Toolbar
+ *
+ * @image html img/widget/toolbar/preview-00.png
+ * @image latex img/widget/toolbar/preview-00.eps
+ * @image html img/toolbar.png
+ * @image latex img/toolbar.eps
+ * @li @ref Tooltips
+ * @li @ref Video
+ * @li @ref Web
+ *
+ * @image html img/widget/web/preview-00.png
+ * @image latex img/widget/web/preview-00.eps
+ * @li @ref Win
+ *
+ * @image html img/widget/win/preview-00.png
+ * @image latex img/widget/win/preview-00.eps
+ *
+ * The other two main groups in Elementary are:
+ * @li @ref infralist - These are modules that deal with Elementary as a whole.
+ * @li @ref containerslist - These are the containers which will hold the widgets.
+ */
+/**
+ * @page containerslist Containers List
+ *
+ * Elementary is about displaying its widgets in a nice layout, for this purpose
+ * it provides a number of containers. It's important to note that as containers
+ * widgets don't have their own visual identity, so here we show one use for
+ * them and a diagram showing their component parts:
+ * @li @ref Box
+ *
+ * @image html img/widget/box/preview-00.png
+ * @image latex img/widget/box/preview-00.eps
+ * @image html img/box.png
+ * @image latex img/box.eps
+ * @li @ref Conformant
+ *
+ * @image html img/widget/conformant/preview-00.png
+ * @image latex img/widget/conformant/preview-00.eps
+ * @image html img/conformant.png
+ * @image latex img/conformant.eps
+ * @li @ref Grid
+ * @li @ref Layout
+ *
+ * @image html img/widget/layout/preview-00.png
+ * @image latex img/widget/layout/preview-00.eps
+ * @image html img/layout-predefined.png
+ * @image latex img/layout-predefined.eps
+ * @li @ref Panes
+ *
+ * @image html img/widget/panes/preview-00.png
+ * @image latex img/widget/panes/preview-00.eps
+ * @image html img/panes.png
+ * @image latex img/panes.eps
+ * @li @ref Scroller
+ *
+ * @image html img/widget/scroller/preview-00.png
+ * @image latex img/widget/scroller/preview-00.eps
+ * @li @ref Table
+ *
+ * @image html img/widget/table/preview-00.png
+ * @image latex img/widget/table/preview-00.eps
+ *
+ * The other two main groups in Elementary are:
+ * @li @ref infralist - These are modules that deal with Elementary as a whole.
+ * @li @ref widgetslist - These are the widgets you'll compose your UI out of.
+ */
+/**
+ * @page threading Threading
+ * 
+ * You may use threads with EFL, but only in specific ways. If you plan on
+ * using threads it is very important you see the following example guides.
+ * See the following
+ * 
+ * @ref efl_thread_1
+ * 
+ * @ref efl_thread_2
+ * 
+ * @ref efl_thread_3
+ * 
+ * @ref efl_thread_4
+ * 
+ * @ref efl_thread_5
+ * 
+ * @ref efl_thread_6
+ * 
+ */

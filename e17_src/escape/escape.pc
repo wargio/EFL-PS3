@@ -1,0 +1,11 @@
+prefix=/media/ps3dev/ps3dev/portlibs/ppu
+exec_prefix=${prefix}
+libdir=/media/ps3dev/ps3dev/portlibs/ppu/lib
+includedir=/media/ps3dev/ps3dev/portlibs/ppu/include
+
+Name: escape
+Description: Library that ports on the PS3 some specific Unix functions.
+Version: 0.99.0
+Libs: -L${libdir} -lescape
+Libs.private: -lm -lnet -lsysmodule -liberty
+Cflags: -I${includedir}/escape-0

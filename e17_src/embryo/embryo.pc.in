@@ -1,0 +1,15 @@
+prefix=@prefix@
+exec_prefix=@exec_prefix@
+libdir=@libdir@
+includedir=@includedir@
+datarootdir=@datarootdir@
+datadir=@datadir@/@PACKAGE@
+embryoincludedir=@embryoincludedir@
+
+Name: embryo
+Description: A small virtual machine engine and bytecode compiler
+@pkgconfig_requires_private@: @requirement_embryo@
+Version: @VERSION@
+Libs: -L${libdir} -lembryo
+Libs.private: @EFL_FNMATCH_LIBS@ -lm
+Cflags: -I${includedir}/embryo-@VMAJ@

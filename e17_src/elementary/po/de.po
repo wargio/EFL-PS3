@@ -1,0 +1,124 @@
+# German translations for elementary package
+# German messages for elementary.
+# Copyright (C) 2011 Enlightenment development team
+# This file is distributed under the same license as the elementary package.
+# Fabian Nowak <timystery@arcor.de>, 2011.
+#
+#: src/lib/elm_config.c:1408
+msgid ""
+msgstr ""
+"Project-Id-Version: elementary 0.7.0.57309\n"
+"Report-Msgid-Bugs-To: enlightenment-devel@lists.sourceforge.net\n"
+"POT-Creation-Date: 2012-01-11 11:00+0900\n"
+"PO-Revision-Date: 2011-02-25 20:22+0100\n"
+"Last-Translator: Fabian Nowak <timystery@arcor.de>\n"
+"Language-Team: German\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: src/lib/elc_fileselector.c:843
+msgid "Up"
+msgstr "Aufwärts"
+
+#: src/lib/elc_fileselector.c:858
+msgid "Home"
+msgstr "Persönlicher Ordner"
+
+#: src/lib/elc_fileselector.c:1002 src/lib/elm_entry.c:1267
+msgid "Cancel"
+msgstr "Abbrechen"
+
+#: src/lib/elc_fileselector.c:1012
+msgid "OK"
+msgstr "OK"
+
+#: src/lib/elm_button.c:287
+msgid "Clicked"
+msgstr ""
+
+#: src/lib/elm_button.c:408 src/lib/elm_check.c:366 src/lib/elm_radio.c:295
+#: src/lib/elm_toolbar.c:759
+msgid "State: Disabled"
+msgstr ""
+
+#: src/lib/elm_button.c:462
+msgid "Button"
+msgstr ""
+
+#: src/lib/elm_calendar.c:158
+msgid "%B %Y"
+msgstr ""
+
+#: src/lib/elm_check.c:283 src/lib/elm_check.c:286 src/lib/elm_check.c:377
+#: src/lib/elm_radio.c:231 src/lib/elm_radio.c:297
+msgid "State: On"
+msgstr ""
+
+#: src/lib/elm_check.c:296 src/lib/elm_check.c:299 src/lib/elm_check.c:386
+#: src/lib/elm_radio.c:298
+msgid "State: Off"
+msgstr ""
+
+#: src/lib/elm_check.c:373 src/lib/elm_check.c:383
+msgid "State"
+msgstr ""
+
+#: src/lib/elm_check.c:436
+msgid "Check"
+msgstr ""
+
+#: src/lib/elm_config.c:1345
+msgid "default:LTR"
+msgstr "Standard: LTR"
+
+#: src/lib/elm_entry.c:1261
+msgid "Copy"
+msgstr "Kopieren"
+
+#: src/lib/elm_entry.c:1264
+msgid "Cut"
+msgstr "Ausschneiden"
+
+#: src/lib/elm_entry.c:1278
+msgid "Select"
+msgstr "Auswählen"
+
+#: src/lib/elm_entry.c:1284
+msgid "Paste"
+msgstr "Einfügen"
+
+#: src/lib/elm_radio.c:404
+msgid "Radio"
+msgstr ""
+
+#: src/lib/elm_toggle.c:11
+msgid "ON"
+msgstr ""
+
+#: src/lib/elm_toggle.c:12
+msgid "OFF"
+msgstr ""
+
+#: src/lib/elm_toolbar.c:676
+#, fuzzy
+msgid "Selected"
+msgstr "Auswählen"
+
+#: src/lib/elm_toolbar.c:757
+msgid "Separator"
+msgstr ""
+
+#: src/lib/elm_toolbar.c:761
+msgid "State: Selected"
+msgstr ""
+
+#: src/lib/elm_toolbar.c:763
+msgid "Has menu"
+msgstr ""
+
+#: src/lib/elm_toolbar.c:821
+msgid "Tool Item"
+msgstr ""
