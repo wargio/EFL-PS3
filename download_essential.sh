@@ -70,7 +70,7 @@ if test ! -d edje-1.2.0 ; then
 	sudo make install
 	cd ..
 fi
-
+sudo ldconfig
 cd ..
 
 rm -rf src
