@@ -242,7 +242,7 @@ function chipmunk {
         rm -rf build && \
         mkdir build && \
         cd build  && \
-        cmake -DCMAKE_INSTALL_PREFIX=/usr/local/ps3dev/portlibs/ppu/ -DBUILD_SHARED=OFF -DBUILD_DEMOS=OFF -DCMAKE_TOOLCHAIN_FILE=$(pwd)/../../Toolchain-ps3.cmake .. && \
+        cmake -DCMAKE_INSTALL_PREFIX=$PS3DEV/portlibs/ppu/ -DBUILD_SHARED=OFF -DBUILD_DEMOS=OFF -DCMAKE_TOOLCHAIN_FILE=$(pwd)/../../Toolchain-ps3.cmake .. && \
         make && \
         ps3-smi && \
         cd ../..
