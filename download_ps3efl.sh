@@ -3,7 +3,7 @@ set -e
 
 function efl {
     if test ! -d EFL-PS3 ; then
-#	git clone git://github.com/wargio/EFL-PS3.git EFL-PS3
+	git clone git://github.com/wargio/EFL-PS3.git EFL-PS3
        # git clone git://github.com/kakaroto/e17.git e17_src
     fi
 }
@@ -113,30 +113,31 @@ function autogen_lib {
 }
 
 
-link
+
 # Setup dirs
-download efl
-download expat
-download fontconfig
-download cares
-download lua
-download chipmunk
+#download efl
+	link
+	download expat
+	download fontconfig
+	download cares
+	download lua
+	download chipmunk
 
 # Patch
-patch_dir c-ares-1.7.4
-patch_dir lua-5.1.4
+	patch_dir c-ares-1.7.4
+	patch_dir lua-5.1.4
 
 # Autogen
-autogen_lib escape
-autogen_lib eina
-autogen_lib eet
-autogen_lib evas
-autogen_lib expedite
-autogen_lib ecore
-autogen_lib embryo
-autogen_lib edje
-autogen_lib eskiss
-autogen_lib elementary
+	autogen_lib escape
+	autogen_lib eina
+	autogen_lib eet
+	autogen_lib evas
+	autogen_lib expedite
+	autogen_lib ecore
+	autogen_lib embryo
+	autogen_lib edje
+	autogen_lib eskiss
+	autogen_lib elementary
 
 rm ./e17_src/*.log 
 
