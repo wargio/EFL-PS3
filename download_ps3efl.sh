@@ -114,6 +114,7 @@ function autogen_lib {
 
 
 
+echo "PS3SDK Path: "$PS3DEV
 # Setup dirs
 #download efl
 	link
